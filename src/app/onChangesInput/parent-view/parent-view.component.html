@@ -1,0 +1,5 @@
+<div style="height:550px;">
+    <p>----------------------------Parent--------------------------------</p>
+    <p>Text received from child : {{inputFromChild}}</p>
+    <app-child-with-input (onKeyUp)="receiveInput($event)"></app-child-with-input>
+</div>

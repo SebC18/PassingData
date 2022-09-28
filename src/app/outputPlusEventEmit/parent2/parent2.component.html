@@ -1,0 +1,13 @@
+*********************************************************************************************<br>
+Output with eventEmit Child to Parent
+<h1 style="background-color:rgb(194, 56, 56); height:550px; padding-left: 10px;color: white;width: 70%;">
+    Parent  <br>
+    libelle
+    {{opSelect.libelle}}
+    <!-- {{message}} -->
+    <!-- <app-child2 (messageEvent)="receiveMessage($event)"></app-child2> -->
+    
+    
+    <app-child2 (changeEvent)="operationClicked($event)"></app-child2>
+    
+</h1>

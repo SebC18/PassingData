@@ -1,0 +1,7 @@
+<div  class="col-span-6">
+    <div>-------------------------Child Component-------------------------------</div>
+    <input #box type="text" name="street-address" (keyup)="emitInputData($event)" id="street-address" autocomplete="street-address" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
+    <div>{{box.value}}</div>
+    <div>-----------------------------------------------------------------------------</div>
+
+</div>
